@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block aboutactive %}active{% endblock aboutactive %}
+{% block title %}About{% endblock title %}
+
+{% block body %}
+        <div class="container my-3">
+            <h2 class="text-center my-3 py-3">About me</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://source.unsplash.com/random/500x300/?html,programing" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Designer</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://source.unsplash.com/random/500x300/?coding,programing" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Developer</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://source.unsplash.com/random/500x300/?code,programing" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Enternainer</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1>My coding video</h1>
+            <div class="container">
+                <!-- 21:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QGQQ7pJQqHk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quidem ipsum voluptas, iste neque
+                    aliquam, inventore vero unde mollitia, accusantium magnam necessitatibus? Fugit voluptatum sunt
+                    numquam, earum unde dicta ipsa?</p>
+            </div>
+            {% endblock body %}
